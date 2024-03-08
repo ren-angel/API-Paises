@@ -1,0 +1,158 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/fundo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff3f3;
+}
+
+h1{
+    font-family: Open Sans;
+    font-size: 3.5rem;
+    font-weight: 600;
+    position: absolute;
+    left: 3%;
+    top: 4%;
+    color: #fff;
+}
+
+#frame-paris {
+    width: 375px;
+    height: 185px;
+    position: absolute;
+    left: 73%;
+    top: 5%;
+    background-color: #e0e0e0;
+}
+
+#frame-japao {
+    width: 375px;
+    height: 185px;
+    position: absolute;
+    left: 62%;
+    top: 32%;
+    background-color: #e0e0e0;
+}
+
+#frame-suica {
+    width: 375px;
+    height: 185px;
+    position: absolute;
+    left: 72%;
+    top: 59%;
+    background-color: #e0e0e0;
+}
+
+img {
+    width: 365px;
+    height: 175px;
+    margin: 5px;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 1.5rem;
+}
+
+#input-div p {
+    position: absolute;
+    left: 2%;
+    top: 26%;
+}
+
+#input-div input {
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 2%;
+    top: 33%;
+}
+
+#info {
+    width: 400px;
+    position: absolute;
+    top: 42%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    word-break: break-all;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #f2eee0;
+}
+
+@media (max-width: 376px) {
+    body {
+        background-image: url("../img/fundo_mobile.png");
+    }
+
+    h1{
+        font-size: 2.6752rem;
+        position: absolute;
+        left: 11%;
+        top: 2%;
+    }
+
+    #frame-paris {
+        width: 136px;
+        height: 66px;
+        left: 6%;
+        top: 15%;
+    }
+    
+    #frame-japao {
+        width: 136px;
+        height: 66px;
+        left: 56%;
+        top: 21%;
+    }
+    
+    #frame-suica {
+        width: 136px;
+        height: 66px;
+        left: 10%;
+        top: 29%;
+    }
+    
+    img {
+        width: 130px;
+        height: 60px;
+        margin: 3px;
+    }
+    
+    p {
+        font-size: 1.672rem;
+    }
+    
+    #input-div p {
+        left: 7%;
+        top: 55%;
+    }
+    
+    #input-div input {
+        width: calc(100% - 45px);
+        height: 45px;
+        font-size: 1.672rem;
+        left: 6%;
+        top: 69%;
+    }
+    
+    #info {
+        width: calc(100% - 75px);
+        top: 80%;
+        left: 5%;
+    }
+}
